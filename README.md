@@ -11,7 +11,7 @@ This repository collects Kubernetes manifests, [Grafana](http://grafana.com/) da
 The content of this project is written in [jsonnet](http://jsonnet.org/). This project could both be described as a package as well as a library.
 
 Components included in this package:
-
+thbdfgdbvgfzdvczgdvx  bcvx
 * The [Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator)
 * Highly available [Prometheus](https://prometheus.io/)
 * Highly available [Alertmanager](https://github.com/prometheus/alertmanager)
@@ -24,7 +24,7 @@ Components included in this package:
 This stack is meant for cluster monitoring, so it is pre-configured to collect metrics from all Kubernetes components. In addition to that it delivers a default set of dashboards and alerting rules. Many of the useful dashboards and alerts come from the [kubernetes-mixin project](https://github.com/kubernetes-monitoring/kubernetes-mixin), similar to this project it provides composable jsonnet as a library for users to customize to their needs.
 
 ## Prerequisites
-
+gdffgbfgn
 You will need a Kubernetes cluster, that's it! By default it is assumed, that the kubelet uses token authentication and authorization, as otherwise Prometheus needs a client certificate, which gives it full access to the kubelet, rather than just the metrics. Token authentication and authorization allows more fine grained and easier access control.
 
 This means the kubelet configuration must contain these flags:
